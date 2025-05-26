@@ -5,6 +5,7 @@
 
 As high-speed trains like India’s Vande Bharat Express and Japan's Shinkansen race across the country at speeds of over 300 km/h, passengers expect uninterrupted Wi-Fi and real-time updates.
 But transmitting stable signals at these speeds poses challenges like signal reflection, impedance mismatch, and electromagnetic interference (EMI). Transmission line theory plays a critical role in ensuring smooth data flow in these harsh environments.
+
 ![image](https://github.com/user-attachments/assets/c6801ec3-db98-4639-b8be-22c672e22509)
 
 
@@ -36,6 +37,8 @@ The RF sections use coaxial cables, microstrip lines, and waveguides, all govern
 High return loss ensures minimal reflection at connectors and filters
 
 Low insertion loss ensures minimal signal attenuation over long cable runs inside the train coaches
+![image](https://github.com/user-attachments/assets/e1222a37-b029-475a-9147-2072d5683e53)
+
 
 📌 Application: RF modems and amplifiers inside the train compartments are rated for <1.5 dB IL and >20 dB RL for smooth Wi-Fi delivery to passengers.
 
@@ -43,6 +46,8 @@ Low insertion loss ensures minimal signal attenuation over long cable runs insid
 ![image](https://github.com/user-attachments/assets/88ae88de-b5e4-4845-b825-c00daa9bb8f6)
 
 📍 Use: In train routers and signal boosters, these parameters are used to model duplexers, filters, and amplifier stages. Designers use S-matrix modeling to ensure no signal leak occurs between input/output stages during wireless processing.
+![image](https://github.com/user-attachments/assets/0e187eb6-f6d4-4625-89b6-fb5771093168)
+
 
 # 7. Power Delivered to Load:
 ![image](https://github.com/user-attachments/assets/0006468b-7974-4443-bec5-86a717bbe9df)
