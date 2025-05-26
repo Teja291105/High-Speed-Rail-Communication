@@ -2,14 +2,14 @@
 # How Transmission Lines Power High-Speed Rail Internet
 
 # 1. Introduction:
+
 As high-speed trains like India’s Vande Bharat Express and Japan's Shinkansen race across the country at speeds of over 300 km/h, passengers expect uninterrupted Wi-Fi and real-time updates.
 But transmitting stable signals at these speeds poses challenges like signal reflection, impedance mismatch, and electromagnetic interference (EMI). Transmission line theory plays a critical role in ensuring smooth data flow in these harsh environments.
-
-# 🏗️ 2. System Overview: Onboard Communication Network:
-![Transmission Line in Train](transmission_line_in_train.png)
+![image](https://github.com/user-attachments/assets/c6801ec3-db98-4639-b8be-22c672e22509)
 
 
-Components involved:
+# 2. System Overview: Onboard Communication Network:
+# Components involved:
 
 Train-mounted antenna (receives 4G/5G satellite/infrastructure signals)
 Router + RF modem in control cabin
@@ -20,11 +20,15 @@ The RF sections use coaxial cables, microstrip lines, and waveguides, all govern
 # 3. Reflection Coefficient (Γ):
 ![image](https://github.com/user-attachments/assets/8006fc10-ae30-4ff1-a5db-64a7864ac176)
 💡 Real-time use: The train’s rooftop antenna must be impedance matched with the coaxial feed line. Otherwise, reflected signals reduce data quality and affect real-time services like ticket verification, alerts, and entertainment.
+![image](https://github.com/user-attachments/assets/9a6f207a-8113-43ea-b521-886a1ca05a06)
+
 
 # 4. VSWR (Voltage Standing Wave Ratio):
 ![image](https://github.com/user-attachments/assets/0c749657-e810-467a-9c4a-4a120de2f534)
 
 ​A VSWR closer to 1:1 ensures minimal standing wave and reflection. In high-speed rail, low VSWR is critical to maintain stable cellular or satellite connectivity, especially during handoffs between base stations.
+![image](https://github.com/user-attachments/assets/0e9c1475-9477-49ed-9241-79fc87e267ff)
+
 
 # 5. Return Loss & Insertion Loss:
 ![image](https://github.com/user-attachments/assets/96c303a2-0357-4a33-a244-5f279914df96)
