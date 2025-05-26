@@ -6,6 +6,8 @@ As high-speed trains like India’s Vande Bharat Express and Japan's Shinkansen 
 But transmitting stable signals at these speeds poses challenges like signal reflection, impedance mismatch, and electromagnetic interference (EMI). Transmission line theory plays a critical role in ensuring smooth data flow in these harsh environments.
 
 # 🏗️ 2. System Overview: Onboard Communication Network:
+![Transmission Line in Train](transmission_line_in_train.png)
+
 
 Components involved:
 
